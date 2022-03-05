@@ -5,7 +5,7 @@ num_3 = int(input())
 diff_1 = num_2 - num_1
 diff_2 = num_3 - num_2
 
-if diff_1 == 1 and diff_2 == 1:
+if diff_1 == diff_2:
     print('YES')
 else:
     print('NO')
